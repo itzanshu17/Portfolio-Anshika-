@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=1024">
+    <title>Anshika - Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/d333f9d052.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <header>
+      <div id="1"></div>
+      <!-------------navigation bar-------------------->
+      <nav>
+        <img class="left" src="img/logo.png" alt="" />
+        <div class="right">
+          <ul>
+            <li><a href="#1"><i class="fa-solid fa-house"></i></a></li>
+            <li><a href="#2"><i class="fa-solid fa-person-chalkboard"></i></a></li>
+            <li><a href="#3"><i class="fa-solid fa-code"></i></a></li>
+            <li><a href="#4"><i class="fa-solid fa-trophy"></i></a></li>
+            <li><a href="#contact"><i class="fa-solid fa-phone"></i></a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-------------first page -------------------->
+      <section class="first">
+        <div class="leftsection">
+          Hi, I am <span class="purple">Anshika Sharma</span>
+          <div>and I am a passionate</div>
+          <span id="element"></span>
+          <div class="button">
+            <button class="btn" onclick="redirectToResume()" target="_blank">
+               Resume 
+            </button>
+          </div>
+        </div>
+        <div class="rightsection">
+          <img src="img/bg.png" alt="" />
+        </div>
+      </section>
+      <div id="2"></div>
+      <hr />
+      <!-------------about-------------------->
+
+      <div id="about">
+        <div class="container">
+          <div class="row">
+            <div class="about-col-1">
+              <img src="img/me2.jpeg" alt="" />
+            </div>
+            <div class="about-col-2">
+              <h1 class="sub-title">About Me</h1>
+              <p class="intro">
+                I am an ambitious individual driven by a deep love for success.
+                With a passion for teamwork, exceptional communication skills,
+                and a natural inclination to take on responsibilities, I’m
+                always eager to tackle challenges head-on. I thrive on rapid
+                learning when faced with new tasks, and I’m a dreamer who
+                actively works towards turning those dreams into reality.
+                Proficient in multiple programming languages, I excel at
+                breaking down intricate problems and crafting effective
+                solutions
+              </p>
+              <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">
+                  Skills
+                </p>
+                <p class="tab-links" onclick="opentab('education')">
+                  Education
+                </p>
+              </div>
+
+              <div class="tab-content active-tab" id="skills">
+                <ul>
+                  <li><span>Java</span></li>
+                  <li><span>Data Structures </span></li>
+                  <li><span>MySql</span></li>
+                  <li><span>HTML</span></li>
+                  <li><span>CSS</span></li>
+                  <li><span>JavaScript</span></li>
+                  <li><span>React</span></li>
+                  <li><span>Figma</span></li>
+                </ul>
+              </div>
+
+              <div class="tab-content" id="education">
+                <ul>
+                  <li>
+                    <span>10th- Gita Niketan Awasiya Vidyalaya</span> <br />
+                    2017-18 (89%)
+                  </li>
+                  <li>
+                    <span>12th- Gita Niketan Awasiya Vidyalaya</span> <br />
+                    2019-20 (71%)
+                  </li>
+                  <li>
+                    <span>B.E.(CSE)- Chandigarh University</span> <br />
+                    2020-24 (7.1 CGPA)
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br />
+      <br />
+      <div id="3"></div>
+      <br />
+      <br />
+
+      <hr />
+
+      <!--------------project---------->
+
+      <div id="projects">
+        <div class="container">
+          <h1 class="sub-title pro">Projects</h1>
+          <div class="project-list">
+            <div>
+              <i class="fa-solid fa-crop"></i>
+              <h2 class="title-project">Photo Editor</h2>
+              <p>
+                -Offline based Photo editor.
+                <br />
+                <br />
+                -Tkinter Tk for GUI toolkit.
+                <br />
+                <br />
+                -Features : Crop, rotate, filters, Image Enhancer, and border.
+              </p>
+              <a
+                href="https://github.com/itzanshu17/Photo-Edittor"
+                target="_blank"
+                ><i class="fa-brands fa-github"></i> Source Code</a
+              >
+            </div>
+            <div>
+              <i class="fa-solid fa-music"></i>
+              <h2 class="title-project">Music Player</h2>
+              <p>
+                -Tech Used:HTML, CSS, JavaScript, React, Bootstrap, Spotify API.
+                <br />
+                <br />
+                -Plays any song for about 30 sec.
+                <br />
+                <br />
+                -Features : You can create a playlist and pin the songs you like the most.
+              </p>
+              <a
+                href="https://github.com/itzanshu17/Music-player"
+                target="_blank"
+                ><i class="fa-brands fa-github"></i> Source Code</a
+              >
+            </div>
+
+            <div>
+              <i class="fa-regular fa-droplet"></i>
+              <h2 class="title-project">Spotify Clone</h2>
+              <p>
+                -Developed a clone just like spotify using HTML,CSS and JavaScript. It is a responsive site which plays songs according to your artists.
+                <br />
+                <br />
+                -Created a user-friendly Chrome Website for instant access to
+                fresh news content, enhancing information accessibility.
+              </p>
+              <a
+                href="https://github.com/itzanshu17/spotify"
+                target="_blank"
+                ><i class="fa-brands fa-github"></i> Source Code</a
+              >
+            </div>
+
+            <div>
+              <i class="fa-solid fa-code"></i>
+              <h2 class="title-project">T20 Score Prediction</h2>
+              <p>
+                -Implemented data visualization techniques using libraries such as Matplotlib or Seaborn to illustrate patterns, trends,
+                and insights derived from the data.
+                <br />
+                <br />
+                -Sourced data from Kaggle, demonstrating proficiency in data acquisition
+                 and integration from external sources.
+              </p>
+              <a
+                href="https://github.com/itzanshu17/T20-Score-Prediction"
+                target="_blank"
+                ><i class="fa-brands fa-github"></i> Source Code</a
+              >
+            </div>
+
+            <div>
+              <i class="fa-solid fa-computer"></i>
+              <h2 class="title-project">News Extension</h2>
+              <p>
+                -Developed a Chrome extension using JavaScript and APIs for instant, real-time news updates.
+                <br />
+                <br />
+                -Created a user-friendly Chrome extension for instant access to fresh news content, enhancing information accessibility.
+              </p>
+              <a
+                href="https://github.com/itzanshu17/News-Extension"
+                target="_blank"
+                ><i class="fa-brands fa-github"></i> Source Code</a
+              >
+            </div>
+
+            <div>
+              <i class="fa-solid fa-gamepad"></i>
+              <h2 class="title-project">Tic Tac Toe</h2>
+              <p>
+                -Developed a game using c++.
+                <br />
+                <br />
+                -Implemented game logic, handling user input, and displaying the game board using ASCII art.
+                </p>
+                
+              <a
+                href="https://github.com/itzanshu17/Tic-Tac-Toe"
+                target="_blank"
+                ><i class="fa-brands fa-github"></i> Source Code</a
+              >
+            </div>
+            
+          </div>
+        </div>
+      </div>
+
+      <br />
+      <br />
+      <br />
+      <div id="4"></div>
+      <br />
+      <br />
+      <br />
+
+      <!--------------awards ---------->
+      <hr />
+
+      <div id="awards">
+        <h1 class="sub-title">Achievements</h1>
+
+        <ul>
+          <li style="--accent-color: #da611e">
+            <div class="icon"><i class="fa-regular fa-id-card"></i></div>
+            <div class="title">Certificate of Exemplary in Soft Skills</div>
+            <div class="descr">
+              Certificate of Exemplary in Soft Skills, highlighting strong
+              interpersonal abilities and effective teamwork.
+            </div>
+          </li>
+          <li style="--accent-color: #0b374d">
+            <div class="icon"><i class="fa-solid fa-droplet"></i></div>
+            <div class="title">Blood Donation</div>
+            <div class="descr">
+              Donated blood in a blood donation camp organised by CU.
+            </div>
+          </li>
+          <li style="--accent-color: #1286a8">
+            <div class="icon"><i class="fa-solid fa-award"></i></div>
+            <div class="title">Hackathon</div>
+            <div class="descr">
+              Participated in hackathon conducted by IBM.
+            </div>
+          </li>
+          <li style="--accent-color: #d2b53b">
+
+            <div class="icon"><i class="fa-solid fa-certificate"></i></div>
+            <div class="title">Head Volunteer In AOI</div>
+            <div class="descr">
+              Served as Head of Volunteers in Art of Living, spearheading
+              community initiatives with dedication and leadership.
+            </div>
+            
+          </li>
+        </ul>
+      </div>
+    </main>
+
+    <!-------------footer-------------------->
+
+    <!-------------js-------------------->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Competitive Coder", "&amp; Software Developer"],
+
+        typeSpeed: 50,
+      });
+    </script>
+
+    <script>
+      function copyMobileNumber() {
+        // Get the mobile number text
+        var mobileNumberText =
+          document.getElementById("mobileNumber").innerText;
+
+        // Create a temporary textarea element
+        var textarea = document.createElement("textarea");
+        textarea.value = mobileNumberText;
+
+        // Append the textarea to the body
+        document.body.appendChild(textarea);
+
+        // Select the text in the textarea
+        textarea.select();
+        textarea.setSelectionRange(0, 99999); /* For mobile devices */
+
+        // Copy the text to the clipboard
+        document.execCommand("copy");
+
+        // Remove the textarea from the DOM
+        document.body.removeChild(textarea);
+
+        // Alert the user that the number has been copied (optional)
+        alert("Mobile number copied to clipboard: " + mobileNumberText);
+      }
+    </script>
+
+    <script>
+      function redirectToResume() {
+        // Use window.open to open the specified link in a new tab
+        window.open(
+          "https://drive.google.com/file/d/1QE5FIdsx7xBrV0rN1cF3DC3zbZWQogkn/view?usp=sharing",
+          "_blank"
+        );
+      }
+    </script>
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontent = document.getElementsByClassName("tab-content");
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabconten of tabcontent) {
+          tabconten.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+  </body>
+  <footer>
+    <div id="contact">
+      <div class="content">
+        <div class="top">
+          <div class="logo-details">
+            <i class="fab fa-slack"></i>
+            <span class="logo_name">Anshika's Developer Portfolio</span>
+          </div>
+          <div class="media-icons">
+            <a href="https://www.linkedin.com/in/anshika--sharmaa/" target="_blank"
+              ><br />Linkedin</a
+            >
+            <a href="https://github.com/itzanshu17" target="_blank"
+              ><br />Github</a
+            >
+            <a
+              href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCHrjFGrpWSVpSGsdrmmGxKCSlNzfVZQVzWJhgRDsrBCgpvBLDnQbRXhRwDdggWCnCKVGgtL"
+              target="_blank"
+              ><br />Gmail</a
+            >
+            <a href="https://www.instagram.com/anshu_1.7/" target="_blank"
+              ><br />Instagram</a
+            >
+          </div>
+        </div>
+        <div class="link-boxes">
+          <ul class="box">
+            <li class="link_name">
+              <i class="fa-solid fa-computer"></i> Programming Languages
+            </li>
+            <li>Java</li>
+            <li>Python</li>
+            <li>Html,Css & Js</li>
+          </ul>
+          <ul class="box">
+            <li class="link_name">
+              <i class="fa-solid fa-person-running"></i> Hobbies
+            </li>
+            <li>Reading</li>
+            <li>Camping</li>
+            <li>Photography</li>
+            <li>Riding</li>
+          </ul>
+          <ul class="box">
+            <li class="link_name">
+              <i class="fa-solid fa-language"></i> Language
+            </li>
+            <li>English</li>
+            <li>Hindi</li>
+          </ul>
+
+          <ul class="box">
+            <li class="link_name"><i class="fa-solid fa-phone"></i> Contact</li>
+            <li>
+              <p
+                class="copy-link"
+                id="mobileNumber"
+                onclick="copyMobileNumber()"
+              >
+                9817851587
+              </p>
+            </li>
+            <li>
+              <p
+                class="copy-link"
+                id="mobileNumber"
+                onclick="copyMobileNumber()"
+              >
+                9056502587
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+</html>
